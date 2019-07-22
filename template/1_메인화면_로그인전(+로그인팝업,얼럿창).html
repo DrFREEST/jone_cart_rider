@@ -10,28 +10,328 @@
   <link href="../static/lib/css/nanumsquare.css" rel="stylesheet">
   <link href="../static/lib/css/bootstrap.min.css" rel="stylesheet">
   <link href="../static/lib/css/bootstrap-datepicker.standalone.css" rel="stylesheet">
+  <link href="../static/lib/css/slick.css" rel="stylesheet">
   <link href="../static/lib/css/reset.css" rel="stylesheet">
   <!-- Custom -->
   <link href="../static/css/cart_rider_vr_style.css" rel="stylesheet">
   <!-- //CSS resource load -->
 </head>
-<body>
+<body class="main">
   <!-- Document -->
   <div class="wrapper">
+    <!-- Header -->
     <div class="header-wrap">
       <div class="header">
-        <div class="header-top"></div>
-        <div class="header-bottom"></div>
+        <div class="header-top">
+          <h1 class="header-logo"><a href="#"><img src="../static/images/logo-header.png" alt></a></h1>
+          <!-- gnb -->
+          <div class="gnb">
+            <ul>
+              <li><a href="#"><span>서비스소개</span></a>
+                <ul>
+                  <li><a href="#">카트라이더VR</a></li>
+                  <li><a href="#">스토어찾기</a></li>
+                </ul>
+              </li>
+              <li><a href="#"><span>게시판</span></a>
+                <ul>
+                  <li><a href="#">공지사항</a></li>
+                  <li><a href="#">랭킹보기</a></li>
+                </ul>
+              </li>
+              <li><a href="#"><span>마이스토어</span></a>
+                <ul>
+                  <li><a href="#">스토어관리</a></li>
+                  <li><a href="#">상품구매</a></li>
+                  <li><a href="#">보유/사용내역</a></li>
+                  <li><a href="#">결제관리</a></li>
+                  <li><a href="#">운영통계</a></li>
+                </ul>
+              </li>
+              <li><a href="#"><span>고객센터</span></a>
+                <ul>
+                  <li><a href="#">자주하는 질문</a></li>
+                  <li><a href="#">1:1문의하기</a></li>
+                  <li><a href="#">내 문의내역</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <!-- //gnb -->
+          <div class="gnb-bg">
+            <h2 class="gnb-logo">
+              <img src="../static/images/logo-gnb.png" alt>
+            </h2>
+          </div>
+        </div>
       </div>
     </div>
+    <!-- //Header -->
+    <!-- Content -->
     <div class="content-wrap">
-      <div class="content"></div>
+      <div class="content">
+        <div class="main-content">
+          <div class="main-row">
+            <div class="main-left">
+              <!-- Main-visual -->
+              <div class="main-visual">
+                <div class="visual-slides">
+                  <div class="slide" style="background-image:url(../static/images/sample-main-visual.png);"><a href="#"></a></div>
+                  <div class="slide" style="background-image:url(../static/images/sample-main-visual.png);"><a href="#"></a></div>
+                  <div class="slide" style="background-image:url(../static/images/sample-main-visual.png);"><a href="#"></a></div>
+                </div>
+              </div>
+              <!-- //Main-visual -->
+            </div>
+            <div class="main-right">
+              <!-- Login Box -->
+              <div class="login-box">
+                <div class="login-form">
+                  <div class="form-set">
+                    <label for=""><input id name type="text" placeholder="아이디 입력"></label>
+                    <label for=""><input id name type="password" placeholder="비밀번호 입력"></label>
+                  </div>
+                  <button class="btn-login">로그인</button>
+                </div>
+                <!-- Login Menu -->
+                <div class="login-menu">
+                  <ul>
+                    <li><a href="#">가입신청하기</a></li>
+                    <li><a href="#">아이디 찾기</a></li>
+                    <li><a href="#">비밀번호 찾기</a></li>
+                  </ul>
+                </div>
+                <!-- //Login Menu -->
+                <!-- IP Info -->
+                <div class="ip-info">
+                  <dl>
+                    <dt>접속 IP</dt>
+                    <dd>111.111.111.111</dd>
+                  </dl>
+                </div>
+                <!-- //IP Info -->
+              </div>
+              <!-- //Login Box -->
+            </div>
+          </div>
+          <div class="main-row">
+            <div class="main-left">
+              <div class="main-boxs quick-menu row">
+                <!-- Main Boxs -->
+                <div class="main-box col-sm-4">
+                  <a href="#">
+                    <h3>상품구매</h3>
+                    <i class="icon-shop"><img src="../static/images/icon-main-shop.png" alt></i>
+                  </a>
+                </div>
+                <div class="main-box col-sm-4">
+                  <a href="#">
+                    <h3>상품보유내역</h3>
+                    <i class="icon-bag"><img src="../static/images/icon-main-bag.png" alt></i>
+                  </a>
+                </div>
+                <div class="main-box col-sm-4">
+                  <a href="#">
+                    <h3>결제관리</h3>
+                    <i class="icon-payment"><img src="../static/images/icon-main-payment.png" alt></i>
+                  </a>
+                </div>
+                <div class="main-box col-sm-4">
+                  <a href="#">
+                    <h3>운영통계</h3>
+                    <i class="icon-statistics"><img src="../static/images/icon-main-statistics.png" alt></i>
+                  </a>
+                </div>
+                <div class="main-box col-sm-8 blue-box">
+                  <div class="cs-center">
+                    <h3>고객센터 <em>0555.252.1234</em></h3>
+                    <dl>
+                      <dt>팩스</dt>
+                      <dd>0555.555.5555</dd>
+                    </dl>
+                    <dl>
+                      <dt>운영시간</dt>
+                      <dd>평일 10시 ~ 13시 / 14시 ~ 18시</dd>
+                    </dl>
+                  </div>
+                </div>
+                <!-- //Main Boxs -->
+              </div>
+            </div>
+            <div class="main-right">
+              <!-- Ranking -->
+              <div class="total-ranking">
+                <h3>전체랭킹</h3>
+                <div class="control-box">
+                  <button class="btn-prev"></button>
+                  <h4>포레스트 트랙</h4>
+                  <button class="btn-next"></button>
+                </div>
+                <ul>
+                  <li>
+                    <span class="rank"><img src="../static/images/icon-main-rank-1.png" alt="1위"></span>
+                    <span class="id">아이디1</span>
+                    <span class="time">00분 00초 00</span>
+                  </li>
+                  <li>
+                    <span class="rank"><img src="../static/images/icon-main-rank-2.png" alt="1위"></span>
+                    <span class="id">아이디2</span>
+                    <span class="time">00분 00초 00</span>
+                  </li>
+                  <li>
+                    <span class="rank"><img src="../static/images/icon-main-rank-3.png" alt="1위"></span>
+                    <span class="id">아이디3</span>
+                    <span class="time">00분 00초 00</span>
+                  </li>
+                  <li>
+                    <span class="rank">4위</span>
+                    <span class="id">아이디4</span>
+                    <span class="time">00분 00초 00</span>
+                  </li>
+                  <li>
+                    <span class="rank">5위</span>
+                    <span class="id">아이디5</span>
+                    <span class="time">00분 00초 00</span>
+                  </li>
+                  <li>
+                    <span class="rank">6위</span>
+                    <span class="id">아이디6</span>
+                    <span class="time">00분 00초 00</span>
+                  </li>
+                  <li>
+                    <span class="rank">7위</span>
+                    <span class="id">아이디7</span>
+                    <span class="time">00분 00초 00</span>
+                  </li>
+                  <li>
+                    <span class="rank">8위</span>
+                    <span class="id">아이디8</span>
+                    <span class="time">00분 00초 00</span>
+                  </li>
+                </ul>
+              </div>
+              <!-- //Ranking -->
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+    <!-- //Content -->
+    <!-- Footer -->
     <div class="footer-wrap">
-      <div class="footer"></div>
+      <div class="footer">
+        <h2 class="footer-logo">
+          <img src="../static/images/logo-footer.png" alt>
+        </h2>
+        <div class="footer-info">
+          <div class="footer-menu">
+            <ul>
+              <li><a href="#">개인정보처리방침</a></li>
+              <li><a href="#">서비스이용약관</a></li>
+              <li><a href="#">사이트맵</a></li>
+            </ul>
+          </div>
+          <div class="address">서울특별시 강남구 테헤란로 234길 스페이스 빌딩 5층 카트라이더 VR 본사</div>
+          <div class="copyright">copyright&copy; All reserved by 카트라이더VR본사</div>
+        </div>
+      </div>
     </div>
+    <!-- //Footer -->
   </div>
   <!-- //Document -->
+  <!-- Popup -->
+  <!-- 로그인 팝업 -->
+  <div class="modal fade modal-login" id="modalLogin" role="dialog" aria-hidden="true" tabindex="-1">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-logo">
+            <img src="../static/images/logo-text.png" alt="카트라이더 VR 아케이드">
+          </h5>
+        </div>
+        <div class="modal-body">
+          <!-- Login Box -->
+          <div class="login-box">
+            <div class="login-form">
+              <h6 class="form-title">스토어로그인</h6>
+              <div class="form-set">
+                <label for=""><input id name type="text" placeholder="아이디 입력"></label>
+                <label for=""><input id name type="password" placeholder="비밀번호 입력"></label>
+              </div>
+              <button class="btn-login">로그인</button>
+            </div>
+            <!-- Login Menu -->
+            <div class="login-menu">
+              <ul>
+                <li><a href="#">가입신청하기</a></li>
+                <li><a href="#">아이디 찾기</a></li>
+                <li><a href="#">비밀번호 찾기</a></li>
+              </ul>
+            </div>
+            <!-- //Login Menu -->
+          </div>
+          <!-- //Login Box -->
+        </div>
+        <button class="close" data-dismiss="modal" type="button" aria-label="Close"></button>
+      </div>
+    </div>
+  </div>
+  <!-- //로그인 팝업 -->
+  <!-- 가입 심사중 팝업 -->
+  <div class="modal fade modal-login" id="modalWait" role="dialog" aria-hidden="true" tabindex="-1">
+    <div class="modal-dialog narrow" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+          <p class="modal-message">
+            가입 심사중인 계정입니다.<br>관리자의 승인 후 사용하실 수 있습니다.
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button class="btn-dark-blue" data-dismiss="modal" type="button">확인</button>
+        </div>
+        <!-- <button class="close" data-dismiss="modal" type="button" aria-label="Close"></button> -->
+      </div>
+    </div>
+  </div>
+  <!-- //가입 심사중 팝업 -->
+  <!-- 이용 중지 계정 팝업 -->
+  <div class="modal fade modal-login" id="modalBreak" role="dialog" aria-hidden="true" tabindex="-1">
+    <div class="modal-dialog narrow" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+          <p class="modal-message">
+            현재 이용이 정지된 계정입니다.<br>자세한 사항은 고객센터로 문의하세요.
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button class="btn-dark-blue" data-dismiss="modal" type="button">확인</button>
+        </div>
+        <!-- <button class="close" data-dismiss="modal" type="button" aria-label="Close"></button> -->
+      </div>
+    </div>
+  </div>
+  <!-- //이용 중지 계정 팝업 -->
+  <!-- 이용 중지 계정 팝업 -->
+  <div class="modal fade modal-login" id="modalComplete" role="dialog" aria-hidden="true" tabindex="-1">
+    <div class="modal-dialog narrow" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+          <p class="modal-message">
+            축하합니다.<br>스토어 가입 신청이 승인되었습니다.
+          </p>
+          <p class="modal-message font-dark-blue">
+            승인일 : 2019년 5월 20일
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button class="btn-dark-blue" data-dismiss="modal" type="button">확인</button>
+        </div>
+        <!-- <button class="close" data-dismiss="modal" type="button" aria-label="Close"></button> -->
+      </div>
+    </div>
+  </div>
+  <!-- //이용 중지 계정 팝업 -->
+  <!-- //Popup -->
   <!-- JS resource load -->
   <!-- Library -->
   <script src="../static/lib/js/jquery-1.12.4.min.js "></script>
@@ -39,9 +339,16 @@
   <script src="../static/lib/js/bootstrap.min.js "></script>
   <script src="../static/lib/js/bootstrap-datepicker.js "></script>
   <script src="../static/lib/js/popper.min.js "></script>
+  <script src="../static/lib/js/slick.min.js "></script>
   <!-- Custom -->
   <script src="../static/js/cart_rider_vr_script.js "></script>
   <!-- document ready script -->
+  <script>
+    $('#modalLogin').modal();
+    $('#modalWait').modal();
+    $('#modalBreak').modal();
+    $('#modalComplete').modal();
+  </script>
   <!-- //document ready script -->
 </body>
 </html>

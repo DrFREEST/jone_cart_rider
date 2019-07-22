@@ -29,7 +29,7 @@ var pub_list = new Vue({
       pageName: "1_메인화면_로그인전(+로그인팝업,얼럿창)",
       fileRoot: "template/",
       fileName: "1_메인화면_로그인전(+로그인팝업,얼럿창)",
-      complete: "",
+      complete: "완료",
       note: ""
     }, {
       pageName: "2_메인화면_로그인후(+심사,중지계정)",
