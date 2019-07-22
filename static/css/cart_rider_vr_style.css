@@ -1,5 +1,5 @@
 /* ********** Common ********** */
-body { font-family:'NanumSquare',sans-serif; font-size:12px; font-size:13px; overflow-y:auto; min-height:100vh; letter-spacing:-0.05em; color:#222222; background-color:#eef1f2; -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale; text-rendering:optimizeSpeed; } 
+body { font-family:'NanumSquare',sans-serif; font-size:13px; overflow-y:auto; min-height:100vh; /* letter-spacing:-0.05em; */ color:#222222; background-color:#eef1f2; -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale; text-rendering:optimizeSpeed; } 
 a { text-decoration:none; color:inherit; } 
 a:hover { text-decoration:none; color:inherit; } 
 input[type=password] { font-family:sans-serif; } 
