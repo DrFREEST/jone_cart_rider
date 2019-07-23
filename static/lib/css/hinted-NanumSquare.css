@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'NanumSquare';
+    src: url('../fonts/hinted-NanumSquareR.eot');
+    src: local('NanumSquare Regular'), local('NanumSquareR'),
+        url('../fonts/hinted-NanumSquareR.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/hinted-NanumSquareR.woff2') format('woff2'),
+        url('../fonts/hinted-NanumSquareR.woff') format('woff'),
+        url('../fonts/hinted-NanumSquareR.ttf') format('truetype'),
+        url('../fonts/hinted-NanumSquareR.svg#NanumSquareR') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NanumSquare';
+    src: url('../fonts/hinted-NanumSquareL.eot');
+    src: local('NanumSquare Light'), local('NanumSquareL'),
+        url('../fonts/hinted-NanumSquareL.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/hinted-NanumSquareL.woff2') format('woff2'),
+        url('../fonts/hinted-NanumSquareL.woff') format('woff'),
+        url('../fonts/hinted-NanumSquareL.ttf') format('truetype'),
+        url('../fonts/hinted-NanumSquareL.svg#NanumSquareL') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NanumSquare';
+    src: url('../fonts/hinted-NanumSquareEB.eot');
+    src: local('NanumSquare ExtraBold'), local('NanumSquareEB'),
+        url('../fonts/hinted-NanumSquareEB.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/hinted-NanumSquareEB.woff2') format('woff2'),
+        url('../fonts/hinted-NanumSquareEB.woff') format('woff'),
+        url('../fonts/hinted-NanumSquareEB.ttf') format('truetype'),
+        url('../fonts/hinted-NanumSquareEB.svg#NanumSquareEB') format('svg');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NanumSquare';
+    src: url('../fonts/hinted-NanumSquareB.eot');
+    src: local('NanumSquare Bold'), local('NanumSquareB'),
+        url('../fonts/hinted-NanumSquareB.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/hinted-NanumSquareB.woff2') format('woff2'),
+        url('../fonts/hinted-NanumSquareB.woff') format('woff'),
+        url('../fonts/hinted-NanumSquareB.ttf') format('truetype'),
+        url('../fonts/hinted-NanumSquareB.svg#NanumSquareB') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+

@@ -35,37 +35,37 @@ var pub_list = new Vue({
       pageName: "2_메인화면_로그인후(+심사,중지계정)",
       fileRoot: "template/",
       fileName: "2_메인화면_로그인후(+심사,중지계정)",
-      complete: "",
+      complete: "완료",
       note: ""
     }, {
       pageName: "5_가입신청_약관동의_05",
       fileRoot: "template/",
       fileName: "5_가입신청_약관동의_05",
-      complete: "",
+      complete: "완료",
       note: ""
     }, {
       pageName: "6_가입신청하기  약관동의 _전화번호인증_02",
       fileRoot: "template/",
       fileName: "6_가입신청하기  약관동의 _전화번호인증_02",
-      complete: "",
+      complete: "완료",
       note: ""
     }, {
       pageName: "7_가입신청하기_약관동의_전화번호인증_정보입력(+오류메세지노출)",
       fileRoot: "template/",
       fileName: "7_가입신청하기_약관동의_전화번호인증_정보입력(+오류메세지노출)",
-      complete: "",
+      complete: "완료",
       note: ""
     }, {
       pageName: "8_가입신청하기_약관동의_전화번호_인증_정보입력_승인대기",
       fileRoot: "template/",
       fileName: "8_가입신청하기_약관동의_전화번호_인증_정보입력_승인대기",
-      complete: "",
+      complete: "완료",
       note: ""
     }, {
       pageName: "9_가입신청하기_심사결과화면",
       fileRoot: "template/",
       fileName: "9_가입신청하기_심사결과화면",
-      complete: "",
+      complete: "완료",
       note: ""
     }, {
       pageName: "10_아이디찾기(+얼럿창)",
