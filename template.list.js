@@ -71,31 +71,31 @@ var pub_list = new Vue({
       pageName: "10_아이디찾기(+얼럿창)",
       fileRoot: "template/",
       fileName: "10_아이디찾기(+얼럿창)",
-      complete: "",
+      complete: "완료",
       note: ""
     }, {
       pageName: "11_아이디찾기_결과화면",
       fileRoot: "template/",
       fileName: "11_아이디찾기_결과화면",
-      complete: "",
+      complete: "완료",
       note: ""
     }, {
       pageName: "12_비밀번호찾기",
       fileRoot: "template/",
       fileName: "12_비밀번호찾기",
-      complete: "",
+      complete: "완료",
       note: ""
     }, {
       pageName: "13_비밀번호찾기_결과화면",
       fileRoot: "template/",
       fileName: "13_비밀번호찾기_결과화면",
-      complete: "",
+      complete: "완료",
       note: ""
     }, {
       pageName: "14_서비스소개_카트라이더VR",
       fileRoot: "template/",
       fileName: "14_서비스소개_카트라이더VR",
-      complete: "",
+      complete: "완료",
       note: ""
     }, {
       pageName: "15_서비스소개_스토어 찾기",
