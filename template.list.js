@@ -101,67 +101,67 @@ var pub_list = new Vue({
       pageName: "15_서비스소개_스토어 찾기",
       fileRoot: "template/",
       fileName: "15_서비스소개_스토어 찾기",
-      complete: "",
+      complete: "완료",
       note: ""
     }, {
       pageName: "16_게시판_공지사항",
       fileRoot: "template/",
       fileName: "16_게시판_공지사항",
-      complete: "",
+      complete: "완료",
       note: ""
     }, {
       pageName: "17_게시판_공지사항_상세보기",
       fileRoot: "template/",
       fileName: "17_게시판_공지사항_상세보기",
-      complete: "",
+      complete: "완료",
       note: ""
     }, {
       pageName: "18_게시판_랭킹보기_전체랭킹",
       fileRoot: "template/",
       fileName: "18_게시판_랭킹보기_전체랭킹",
-      complete: "",
+      complete: "완료",
       note: ""
     }, {
       pageName: "19_게시판_랭킹보기_지역별랭킹",
       fileRoot: "template/",
       fileName: "19_게시판_랭킹보기_지역별랭킹",
-      complete: "",
+      complete: "완료",
       note: ""
     }, {
       pageName: "20_게시판_랭킹보기_스토어랭킹",
       fileRoot: "template/",
       fileName: "20_게시판_랭킹보기_스토어랭킹",
-      complete: "",
+      complete: "완료",
       note: ""
     }, {
       pageName: "21_게시판_랭킹보기_스토어랭킹_선택한스토어랭킹보기",
       fileRoot: "template/",
       fileName: "21_게시판_랭킹보기_스토어랭킹_선택한스토어랭킹보기",
-      complete: "",
+      complete: "완료",
       note: ""
     }, {
       pageName: "22_마이스토어_스토어관리(비밀번호입력)(+얼럿창)",
       fileRoot: "template/",
       fileName: "22_마이스토어_스토어관리(비밀번호입력)(+얼럿창)",
-      complete: "",
+      complete: "완료",
       note: ""
     }, {
       pageName: "23_마이스토어_스토어_관리(개인정보)",
       fileRoot: "template/",
       fileName: "23_마이스토어_스토어_관리(개인정보)",
-      complete: "",
+      complete: "완료",
       note: ""
     }, {
       pageName: "24_마이스토어_상품구매(+얼럿창)",
       fileRoot: "template/",
       fileName: "24_마이스토어_상품구매(+얼럿창)",
-      complete: "",
+      complete: "완료",
       note: ""
     }, {
       pageName: "25_마이스토어_상품구매_자동결제신청",
       fileRoot: "template/",
       fileName: "25_마이스토어_상품구매_자동결제신청",
-      complete: "",
+      complete: "완료",
       note: ""
     }, {
       pageName: "26_마이스토어_보유사용내역_보유내역(+달력)",
@@ -191,7 +191,7 @@ var pub_list = new Vue({
       pageName: "30_마이스토어_결제관리_환불신청",
       fileRoot: "template/",
       fileName: "30_마이스토어_결제관리_환불신청",
-      complete: "",
+      complete: "완료",
       note: ""
     }, {
       pageName: "31_마이스토어_운영통계_플레이현황",
