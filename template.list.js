@@ -167,25 +167,25 @@ var pub_list = new Vue({
       pageName: "26_마이스토어_보유사용내역_보유내역(+달력)",
       fileRoot: "template/",
       fileName: "26_마이스토어_보유사용내역_보유내역(+달력)",
-      complete: "",
+      complete: "완료",
       note: ""
     }, {
       pageName: "27_마이스토어_보유사용내역_사용내역",
       fileRoot: "template/",
       fileName: "27_마이스토어_보유사용내역_사용내역",
-      complete: "",
+      complete: "완료",
       note: ""
     }, {
       pageName: "28_마이스토어_결제관리",
       fileRoot: "template/",
       fileName: "28_마이스토어_결제관리",
-      complete: "",
+      complete: "완료",
       note: ""
     }, {
       pageName: "29_마이스토어_결제관리_자동결제관리",
       fileRoot: "template/",
       fileName: "29_마이스토어_결제관리_자동결제관리",
-      complete: "",
+      complete: "완료",
       note: ""
     }, {
       pageName: "30_마이스토어_결제관리_환불신청",
@@ -197,49 +197,49 @@ var pub_list = new Vue({
       pageName: "31_마이스토어_운영통계_플레이현황",
       fileRoot: "template/",
       fileName: "31_마이스토어_운영통계_플레이현황",
-      complete: "",
+      complete: "완료",
       note: ""
     }, {
       pageName: "32_마이스토어_운영통계_기기사용현황",
       fileRoot: "template/",
       fileName: "32_마이스토어_운영통계_기기사용현황",
-      complete: "",
+      complete: "완료",
       note: ""
     }, {
       pageName: "33_마이스토어_고객센터",
       fileRoot: "template/",
       fileName: "33_마이스토어_고객센터",
-      complete: "",
+      complete: "완료",
       note: ""
     }, {
       pageName: "34_마이스토어_고객센터_자주하는질문_상세보기",
       fileRoot: "template/",
       fileName: "34_마이스토어_고객센터_자주하는질문_상세보기",
-      complete: "",
+      complete: "완료",
       note: ""
     }, {
       pageName: "35_마이스토어_고객센터_1대1문의하기",
       fileRoot: "template/",
       fileName: "35_마이스토어_고객센터_1대1문의하기",
-      complete: "",
+      complete: "완료",
       note: ""
     }, {
       pageName: "36_마이스토어_고객센터_내문의내역",
       fileRoot: "template/",
       fileName: "36_마이스토어_고객센터_내문의내역",
-      complete: "",
+      complete: "완료",
       note: ""
     }, {
       pageName: "37_마이스토어_고객센터_내문의내역_상세보기",
       fileRoot: "template/",
       fileName: "37_마이스토어_고객센터_내문의내역_상세보기",
-      complete: "",
+      complete: "완료",
       note: ""
     }, {
       pageName: "38_데이터로딩",
       fileRoot: "template/",
       fileName: "38_데이터로딩",
-      complete: "",
+      complete: "완료",
       note: ""
     },]
   }
